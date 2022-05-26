@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    
+
+#Menu{
+    width: 195px;
+    height: 25%;
+    background: rgb(129, 6, 185);
+
+}
+
+
+#Menu ul li {
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(100, 100, 100, .8)  ;
+}
+
+#Menu span{
+    position: absolute;
+    left: 200px;
+    top: 5px;
+    cursor: pointer;
+    display: block;
+    width: 40PX;
+    text-align: center;
+    font-size: 30PX;
+    border: 1Px  solid black;
+}
+
+
+.header{
+    display: flex;
+
+}
+.Logo{
+    height: 90px;
+    margin-left: 250px;
+    margin-top: -115px;
+    width: 120px;
+}
+ 
+.Titulo1{
+    font-size: 60px;
+    margin-top: -115px;
+    margin-left: 80px;
+}
+.Titulo2{
+    font-size: 35px;
+margin-top: 90px;
+margin-bottom: 60px;
+margin-left: 550px;
+}
+#San{
+    
+    display: block;
+    
+}
+
+.Samsung img{
+    margin-top: -40px;
+    margin-left: 240px;
+ width: 200px;  
+ float: left;
+ 
+}
+
+.Samsung{
+    border: 1px solid rgb(140, 253, 210);
+    background: rgb(140, 253, 210);
+}
+
+ p{
+     margin-top: 30px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.PSansung{
+    margin-top: 50px;
+}
+
+.Iphone img{
+    
+    margin-top: 150px;
+    margin-left: 1px;
+    width: 150px;
+}
+
+.Iphone p{
+    display: grid;
+    text-align: center;
+    margin-top: 30px;
+    background: rgb(140, 253, 210);
+}
+
+.B{
+    position: absolute;
+    left: 950px;
+    top: 500px;
+    cursor: pointer;
+    display: block;
+    width: 200PX;
+    text-align: center;
+    font-size: 30PX;
+    
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    background-color: rgb(129, 6, 185);
+}
+  
+.Footer{
+    margin-top: 40px;
+    text-align: center;
+}
